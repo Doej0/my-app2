@@ -29,9 +29,14 @@
     right: -20px;
     transition: 0.5s;
   }
+
+  .nav-button:hover{
+    background-color: darkgreen;
+  }
   
   .nav-button:hover span {
     padding-right: 25px;
+    
   }
   
   .nav-button:hover span:after {
@@ -41,6 +46,7 @@
   
   /* styling for buttons in body */
   .nav-button2 {
+    border-radius: 4px;
     background-color: darkgreen;
     border: none;
     color: white;
@@ -55,6 +61,7 @@
   }
   
   .nav-button3 {
+    border-radius: 4px;
     background-color: darkgreen;
     border: none;
     color: white;
@@ -79,3 +86,45 @@
     background-color: #4CAF50;
     color: white;
   }
+
+
+  /* Hire me button styling */
+    .nav-button4 {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #f4511e;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 28px;
+      padding: 18px;
+      width: 175px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+  
+    .nav-button4 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+  
+    .nav-button4 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+  
+    .nav-button4:hover span {
+      padding-right: 25px;
+    }
+  
+    .nav-button4:hover span:after {
+      opacity: 1;
+      right: 0;
+    }

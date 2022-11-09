@@ -1,7 +1,6 @@
 import "./App.css";
 import "./button.css";
-import logo from './assets/FullLogo_Transparent.png';
-
+import logo from "./assets/FullLogo_Transparent.png";
 
 function MyHeader() {
   return (
@@ -14,68 +13,87 @@ function MyHeader() {
             <li>Experience</li>
             <li>Work</li>
             <li>Contact</li>
-            <button className="nav-button"><span>Resume</span></button>
+            <button className="nav-button">
+              <span>Resume</span>
+            </button>
           </ul>
-          
         </nav>
       </div>
     </header>
   );
 }
 
-
 function HomePage() {
   return (
     <main>
-    <section>
-    <article>
-    <div className="header-text">
-    <h2>Responsive Design that adapts to you</h2>
-    <p>Hi, I'm Vee. I build websites that are optimized for every platform and device.</p>
-      <button className="nav-button2">About Me</button>
-      <button className="nav-button3">Contact Me</button>
-    </div>
-    </article>
-   </section>
-    <section>
-    <article>
-        <h3>Let's build Something</h3>
-        <p>
-         
-         Let me help you show your business off to the world!<br/> 
-         Having an online presence is important and with a website you will be able to:<br/>
-         conduct business 24/7<br/>
-         promote new products and services<br/>
-         extend your reach; serve customers all over the world if you wish! <br/>
-         provide your customers with quick Information<br/>
-         level the playing ground; compete better with your competition<br/>
-         Already have a site and it just needs a bit of TLC? I can help with that too!<br/>
-         <button className="nav-button4">Hire Me!</button>
-       
-        </p>
-      </article>
+      <section>
+        <article>
+          <div className="header-text">
+            <h2>Responsive Design that adapts to you</h2>
+            <p>
+              Hi, I'm Vee. I build websites that are optimized for every
+              platform and device.
+            </p>
+            <button className="nav-button2">About Me</button>
+            <button className="nav-button3">Contact Me</button>
+          </div>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h3>Let's build Something</h3>
+          <p>
+            Let me help you show your business off to the world!
+            <br />
+            Having an online presence is important and with a website you will
+            be able to:
+            <br />
+            conduct business 24/7
+            <br />
+            promote new products and services
+            <br />
+            extend your reach; serve customers all over the world if you wish!{" "}
+            <br />
+            provide your customers with quick Information
+            <br />
+            level the playing ground; compete better with your competition
+            <br />
+            Already have a site and it just needs a bit of TLC? I can help with
+            that too!
+            <br />
+            <button className="nav-button4">
+              <span>Hire Me!</span>
+            </button>
+          </p>
+        </article>
       </section>
       <section>
         <article>
           <h3>Tools</h3>
-          <p><i class="fa-brands fa-react"></i>
-          <i class="fa-brands fa-node"></i>
-          <i class="fa-solid fa-database"></i>
-          <i class="fa-brands fa-js"></i>
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-linux"></i></p>
+          <p>
+            <i class="fa-brands fa-react fa-2x"></i>
+            <i class="fa-brands fa-node fa-2x"></i>
+            <i class="fa-solid fa-database fa-2x"></i>
+            <i class="fa-brands fa-js fa-2x"></i>
+            <i class="fa-brands fa-github fa-2x"></i>
+            <i class="fa-brands fa-linux fa-2x"></i>
+          </p>
         </article>
       </section>
       <section>
         <article>
           <h3>Services</h3>
           <aside>
-            <p>Donec commodo enim felis, sed sodales arcu blandit sed. Phasellus a purus nec erat elementum aliquam. Aenean ut viverra elit. Nunc faucibus dolor varius massa maximus, vitae ultrices eros tincidunt. Proin condimentum orci eu iaculis dictum. Phasellus commodo imperdiet enim aliquam placerat. Pellentesque massa nibh, pellentesque et efficitur et, sollicitudin sit amet mauris. Donec faucibus fermentum porta.</p>
+            <p>
+              Web Design
+              <br />
+              Web development support and maintenance
+            </p>
           </aside>
-          <aside>
-            <p>Donec commodo enim felis, sed sodales arcu blandit sed. Phasellus a purus nec erat elementum aliquam. Aenean ut viverra elit. Nunc faucibus dolor varius massa maximus, vitae ultrices eros tincidunt. Proin condimentum orci eu iaculis dictum. Phasellus commodo imperdiet enim aliquam placerat. Pellentesque massa nibh, pellentesque et efficitur et, sollicitudin sit amet mauris. Donec faucibus fermentum porta.</p>
-          </aside>
-          <button>Hire Me!</button>
+
+          <button className="nav-button4">
+            <span>Hire Me!</span>
+          </button>
         </article>
       </section>
       <section>
@@ -89,13 +107,14 @@ function HomePage() {
       <section>
         <article>
           <h3>Social</h3>
-          <p><i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-skype"></i>
-          <i class="fa-brands fa-slack"></i></p>
+          <p>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <i class="fa-brands fa-github fa-2x"></i>
+            <i class="fa-brands fa-skype fa-2x"></i>
+            <i class="fa-brands fa-slack fa-2x"></i>
+          </p>
         </article>
       </section>
-      
     </main>
   );
 }
